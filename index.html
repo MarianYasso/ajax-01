@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX/Fetch</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Page Loaded</h1>
+        <p><span class="page-loaded"></span></p>
+    </section>
+    
+    
+    <section>
+        <h1>AJAX/Fetch HTML Sample</h1>
+        <div class="html-container"></div>
+        <button class="get-html">Get HTML</button>
+        <button class="fetch-html">Fetch HTML</button>
+    </section>
+    
+    <section>
+        <h1>AJAX/Fetch JSON Sample</h1>
+        <h2>Client Data</h2>
+        <p>Client name: <span class="client-name"></span></p>
+        <p>Account balance: <span class="account-balance"></span></p>
+        <button class="get-json">Get JSON</button>
+        <button class="fetch-json">Fetch JSON</button>
+    </section>
+    
+    <section>
+        <h1>Form Sample</h1>
+        <form class="login-form">
+            <label>
+                Name: <input type="text" name="name">
+            </label>
+            <label>
+                Password: <input type="password" name="password">
+            </label>
+            <input type="submit">
+            <div class="server-response"></div>
+        </form>
+    </section>
+    
+    <section>
+        <h1>Currency converter</h1>
+        <form class="converter">
+            <label>
+                From: <input type="text" name="curr-from">
+            </label>
+            <br>
+            <label>
+                To: <input type="text" name="curr-to">
+            </label>
+            <br>
+            <label>
+                Amount: <input type="number" name="curr-amount">
+            </label>
+            <br>
+            <label>
+                Converted: <output type="text" name="curr-converted"></output>
+            </label>
+            <br>
+            <button class="curr-convert">Convert</button>
+        </form>
+    </section>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
